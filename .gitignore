@@ -1,0 +1,28 @@
+# Chapel compiled binaries
+*.real
+*.fast
+*_real
+*_fast
+.devel/
+
+# Chapel build artifacts
+*.chpl~ 
+*.o
+*.a
+
+# OS artifacts
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.*
+credentials.*
+*.secret
